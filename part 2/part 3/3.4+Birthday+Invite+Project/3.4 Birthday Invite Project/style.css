@@ -1,0 +1,17 @@
+body{
+    background-color: rgba(15, 14, 14, 1);
+}
+img{
+    border-style: double;
+    border-color: black;
+}
+h1{
+    color:yellow
+}
+
+h2,h3{
+    color:rgb(255, 0, 187)
+}
+li{
+    color:rgb(17, 218, 10)
+}
