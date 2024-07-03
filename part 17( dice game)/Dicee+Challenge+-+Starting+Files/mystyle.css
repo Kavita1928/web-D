@@ -1,0 +1,43 @@
+*{
+    font-family: "Lobster Two", sans-serif;
+    background-color: #3f454f;
+}
+.box{
+    width:70%;
+    text-align: center;
+    margin:auto;   
+    color:#4ECCA3;
+}
+
+
+
+body {
+    color:#4ECCA3;
+}
+.dice{
+    display: inline-block;
+    text-align: center;
+    
+}
+
+p{
+    font-size: 2rem;
+}
+img{
+    width: 80%;
+}
+
+h1{
+    width:100%;
+    margin:30px;
+    font-size:8rem;
+    text-shadow:5px 0  black;
+}
+
+
+footer{
+    font-family: "Caveat", cursive;
+    color: #EEEEEE;
+    margin-top: 5%;
+    text-align: center;
+   }
