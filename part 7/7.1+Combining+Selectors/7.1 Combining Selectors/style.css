@@ -1,0 +1,16 @@
+/* Write your code here: */
+
+
+h1, h2{
+    color:rgb(30, 12, 222)
+
+
+}
+
+div > p{
+    color:firebrick
+}
+
+.done >.list{
+    color:aqua;
+}
