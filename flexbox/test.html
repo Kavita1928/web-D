@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>colors</title>
+    <style>
+        .box{
+            border:5px solid gold;
+            background-color:whitesmoke;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content:space-evenly ;
+        }
+        .box>*{
+           flex-basis: 100px;
+        }
+
+        .red{background-color: red;
+                order:10;    }
+        .orange{background-color: orange;}
+        .yellow{background-color: rgb(234, 234, 45);}
+        .green{background-color: green;}
+        .blue{background-color: blue;}
+        .indigo{background-color: indigo;}
+        .violet{background-color: violet;}
+</style>
+<!--ORDER : jitna jadaaa  order hoga wo utna peche hoga-->
+<!-- FEX-WRAP: nowrap/wrap/wrap reverse
+              it is property of parent container -->
+<!--JUSTIFY-CONTENT:(uses main axis(hori)) flex start/ flex end / centre /space between/ space around / space evenly/
+                 it set the distribution of element along main axis(horzontal axis) -->
+<!--align-items: (does not work when wrap is on)  flex start/ flexend / centre /baseline /strech / it uses only verticsl axxis height only 
+    if wrap si on then use
+  -- ALIGN-CONTENT:(Similar)
+# if u want single item to set differntly we use //ALIGN-SELF://
+
+
+## as flex-direction and flex wrap are often used so we use flex-flow:(mix of both)  row wrap/column wrap;
+-->
+</head>
+<body>
+    <div class="box">
+        <div class="red">red</div>
+        <div class="orange">orange</div>
+        <div class="Yellow">Yellow</div>
+        <div class="green">green</div>
+        <div class="blue">blue</div>
+        <div class="indigo">indigo</div>
+        <div class="violet">violet</div>
+    </div>
+</body>
+</html>

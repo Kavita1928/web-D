@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .container{
+            border:5px solid #8E3E63;
+               background-color: #d4ecbf;
+            padding:10px;
+            display: flex;
+            gap:5px;
+
+        }
+
+        .container>*{
+            flex-basis: 100px;
+            min-width:90px;
+            border:3px solid #F6FAB9;
+            color: #D2649A;
+        }
+
+        .home{
+            flex:1;
+        }
+
+        .about{
+            flex:2;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="home">home</div>
+        <div class="about">About</div>
+        <div class="boxes">Contact us</div>
+        <div class="boxes">The best programming School in the world</div>
+    </div>
+</body>
+</html>
